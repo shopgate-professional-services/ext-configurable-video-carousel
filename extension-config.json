@@ -1,8 +1,6 @@
 {
   "version": "1.0.0",
-  "id": "@shopgate-project/configurable-video-slider",
-  "components": [
-  ],
-  "configuration": {
-  }
+  "id": "@shopgate-project/configurable-video-carousel",
+  "components": [],
+  "configuration": {}
 }

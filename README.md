@@ -1,6 +1,6 @@
-# Shopgate Connect - Extension configurable-video-slider
+# Shopgate Connect - Extension configurable-video-carousel
 
-General extension that will create a configurable video slider as a widget.
+General extension that will create a configurable video carousel as a widget.
 
 ## About Widget Configuration
 

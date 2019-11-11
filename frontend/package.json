@@ -1,7 +1,7 @@
 {
-  "name": "@shopgate-project/configurable-video-slider",
+  "name": "@shopgate-project/configurable-video-carousel",
   "version": "1.0.0",
-  "description": "Creates a configurable video slider as a widget in merchants app",
+  "description": "Creates a configurable video carousel as a widget in merchants app",
   "license": "Apache-2.0",
   "scripts": {
     "test": "jest",
