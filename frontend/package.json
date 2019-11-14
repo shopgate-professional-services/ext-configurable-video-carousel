@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@shopgate-ps/pwa-extension-kit": "^0.6.0",
-    "@shopgate/engage": "^6.8.0"
+    "@shopgate/engage": "^6.8.0",
+    "react-id-swiper": "^2.4.0"
   }
 }
