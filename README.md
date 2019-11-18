@@ -2,7 +2,11 @@
 
 General extension that will create a configurable video carousel as a widget.
 
+## Demo & Examples
+[See here](demo/index.md)
+
 ## About Widget Configuration
+- `autoplayValue` (Object || bool): Configuration for carousel autoplay settings
 - `buttonFontColor` (string): Color of the internal font for carousel buttons
 - `backgroundColor` (string): Background for the lazy loaded video
 - `buttonBorder` (string): Border css for carousel buttons
@@ -27,45 +31,49 @@ General extension that will create a configurable video carousel as a widget.
 {
   "type": "@shopgate-project/configurable-video-carousel/ConfigurableCarousel",
   "settings": {
-    "buttonFontColor": "#5ccee3",
-    "backgroundColor": "blue",
-    "buttonBorder": "none",
-    "buttonPadding": "0",
-    "buttonBoxShadow": "0 8px 13px rgba(0, 0, 0, 0.25)",
+    "autoplayValue": {
+      "delay":8000,
+      "disableOnInteraction":true
+    },
+    "backgroundColor": "grey",
     "buttonBackground": "#fff",
+    "buttonBorder": "none",
     "buttonBorderRadius": "50%",
-    "buttonSize": 30,
-    "buttonType": "text",
+    "buttonBoxShadow": "0 8px 13px rgba(0, 0, 0, 0.25)",
+    "buttonFontColor": "#5ccee3",
+    "buttonPadding": "0",
+    "buttonSize": 20,
+    "buttonType": "arrow",
     "buttonWrapperWidth": "60%",
-    "spaceBetweenSlides": 30,
     "numberSlidesPerView": 1,
+    "spaceBetweenSlides": 30,
     "slideInfo": [ 
-        { 
-		  "alt":"monin 1",
-          "type":"video",
-          "src":"https://www.youtube.com/embed/A5hoC4b5xes"
-        },
-        { 
-		  "alt":"monin 2",
-          "type":"video",
-          "src":"https://www.youtube.com/embed/hWOs7aqnhBg"
-        },
-        { 
-		  "alt":"monin 3",
-          "type":"video",
-          "src":"https://www.youtube.com/embed/LuEroM5JTTM"
-        },
-        { 
-		  "alt":"monin 4",
-          "type":"video",
-          "src":"https://www.youtube.com/embed/XSBqhoAc5vI"
-        },
-        { 
-		  "alt":"Mountain Cat",
-          "type":"image",
-          "src":"http://data.shopgate.com/shop_widget_images/24797/3692ec7a133d85701f713e624ceb4d51.min.jpeg"
-        }
-      ],
+      { 
+        "alt":"monin 1",
+        "type":"video",
+        "src":"https://www.youtube.com/embed/A5hoC4b5xes"
+      },
+      { 
+        "alt":"monin 2",
+        "type":"video",
+        "src":"https://www.youtube.com/embed/hWOs7aqnhBg"
+      },
+      { 
+        "alt":"monin 3",
+        "type":"video",
+        "src":"https://www.youtube.com/embed/LuEroM5JTTM"
+      },
+      { 
+        "alt":"monin 4",
+        "type":"video",
+        "src":"https://www.youtube.com/embed/XSBqhoAc5vI"
+      },
+      { 
+        "alt":"Mountain Cat",
+        "type":"image",
+        "src":"http://data.shopgate.com/shop_widget_images/24797/3692ec7a133d85701f713e624ceb4d51.min.jpeg"
+      }
+    ],
     "widgetWidth": "95%"
   }
 }
