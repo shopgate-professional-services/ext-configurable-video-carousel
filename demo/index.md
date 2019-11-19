@@ -2,20 +2,6 @@
 
 ## Widget Configurations
 
-### Autoplay Configurations
-- `autoplayValue`: Expects either a object containing parameters `delay` and disableOnInteraction, or a boolean value. A value of `true` will use default `delay` and `disableOnInteraction` values, and `false` will disable autoplay.
-#### Config:
-```json 
-{
-  "settings": {
-    "autoplayValue": {
-      "delay":8000,
-      "disableOnInteraction":true
-    }
-  }
-}
-```
-
 ### Button Configurations
 - `buttonBackground`: Expects a color value as a string
 - `buttonBorder`: Expects a css border value as a string

@@ -1,12 +1,12 @@
 # Shopgate Connect - Extension configurable-video-carousel
 
 General extension that will create a configurable video carousel as a widget.
+*Important* Carousel slide auto play is disabled
 
 ## Demo & Examples
 [See here](demo/index.md)
 
 ## About Widget Configuration
-- `autoplayValue` (Object || bool): Configuration for carousel autoplay settings
 - `buttonFontColor` (string): Color of the internal font for carousel buttons
 - `backgroundColor` (string): Background for the lazy loaded video
 - `buttonBorder` (string): Border css for carousel buttons
@@ -31,10 +31,6 @@ General extension that will create a configurable video carousel as a widget.
 {
   "type": "@shopgate-project/configurable-video-carousel/ConfigurableCarousel",
   "settings": {
-    "autoplayValue": {
-      "delay":8000,
-      "disableOnInteraction":true
-    },
     "backgroundColor": "grey",
     "buttonBackground": "#fff",
     "buttonBorder": "none",

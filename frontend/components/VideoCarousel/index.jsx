@@ -13,7 +13,6 @@ const VideoCarousel = ({
   settings,
 }) => {
   const {
-    autoplayValue,
     backgroundColor,
     buttonBackground,
     buttonBorder,
@@ -65,14 +64,14 @@ const VideoCarousel = ({
     spaceBetween: spaceBetweenSlides,
     slidesPerView: numberSlidesPerView,
     loop: true,
-    autoplay: autoplayValue,
+    autoplay: false,
     noSwipeing: true,
     getSwiper: updateSwiper,
   };
 
   const slides = slideInfo.map((slide, index) => {
-    const item = slide.type === 'video' ?
-      (
+    if (slide.type === 'video') {
+      return (
         <div
           className={styles.videoWrapper(backgroundColor)}
           key={index.toString()}
@@ -82,18 +81,18 @@ const VideoCarousel = ({
             <div className="swiper-lazy-preloader swiper-lazy-preloader-black" />
           </div>
         </div>
-      ) :
-      (
-        <div
-          key={index.toString()}
-        >
-          <img
-            src={slide.src}
-            alt={slide.alt}
-          />
-        </div>
       );
-    return item;
+    }
+    return (
+      <div
+        key={index.toString()}
+      >
+        <img
+          src={slide.src}
+          alt={slide.alt}
+        />
+      </div>
+    );
   });
 
   return (
@@ -133,10 +132,6 @@ const VideoCarousel = ({
 
 VideoCarousel.propTypes = {
   settings: PropTypes.shape({
-    autoplayValue: PropTypes.oneOfType([
-      PropTypes.bool,
-      PropTypes.shape(),
-    ]),
     buttonFontColor: PropTypes.string,
     backgroundColor: PropTypes.string,
     buttonBackground: PropTypes.string,

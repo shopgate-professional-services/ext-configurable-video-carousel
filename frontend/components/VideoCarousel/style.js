@@ -9,6 +9,7 @@ const buttonWrapper = buttonWrapperWidth => css({
   width: buttonWrapperWidth,
   margin: '0 auto',
   marginTop: '10',
+  marginBottom: '10',
 }).toString();
 
 /**
