@@ -6,7 +6,7 @@
       "id": "ConfigurableCarousel",
       "path": "frontend/widgets/ConfigurableCarousel/index.jsx",
       "type": "widgets",
-      "description": "Cusom widget for creating a configurable carousel"
+      "description": "Custom widget for creating a configurable carousel"
     },
     {
       "type": "translations",
