@@ -38,7 +38,7 @@
 - `numberSlidesPerView`: Expects a number. Sets the number of slides in view
 - `spaceBetweenSlides`: Expects a number. Sets the space between slides
 - `slideInfo`: Expects an array containing information for each slide in the carousel
-  - `alt`: Expects a string that provies a alternative titled for a slide
+  - `alt`: Expects a string that provides a alternative titled for a slide
   - `type`: Expects a string that denotes whether the slide is a `video` or an `img`
   - `src`: Expects a string that contains the src for the image or video.
 - `widgetWidth`: Expects a css width value as a string
@@ -52,27 +52,27 @@
     "spaceBetweenSlides": 30,
     "slideInfo": [ 
       { 
-        "alt":"monin 1",
+        "alt":"slide 1",
         "type":"video",
         "src":"https://www.youtube.com/embed/A5hoC4b5xes"
       },
       { 
-        "alt":"monin 2",
+        "alt":"slide 2",
         "type":"video",
         "src":"https://www.youtube.com/embed/hWOs7aqnhBg"
       },
       { 
-        "alt":"monin 3",
+        "alt":"slide 3",
         "type":"video",
         "src":"https://www.youtube.com/embed/LuEroM5JTTM"
       },
       { 
-        "alt":"monin 4",
+        "alt":"slide 4",
         "type":"video",
         "src":"https://www.youtube.com/embed/XSBqhoAc5vI"
       },
       { 
-        "alt":"Mountain Cat",
+        "alt":"img 1",
         "type":"image",
         "src":"http://data.shopgate.com/shop_widget_images/24797/3692ec7a133d85701f713e624ceb4d51.min.jpeg"
       }
