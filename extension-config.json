@@ -1,6 +1,23 @@
 {
   "version": "1.0.0",
   "id": "@shopgate-project/configurable-video-carousel",
-  "components": [],
+  "components": [
+    {
+      "id": "ConfigurableCarousel",
+      "path": "frontend/widgets/ConfigurableCarousel/index.jsx",
+      "type": "widgets",
+      "description": "Custom widget for creating a configurable carousel"
+    },
+    {
+      "type": "translations",
+      "path": "frontend/locale/en-US.json",
+      "id": "locale/en-US"
+    },
+    {
+      "type": "translations",
+      "path": "frontend/locale/de-DE.json",
+      "id": "locale/de-DE"
+    }
+  ],
   "configuration": {}
 }
